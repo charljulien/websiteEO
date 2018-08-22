@@ -1,0 +1,541 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Elements - Stellar by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script type="text/javascript" src="assets/js/modernizr.custom.86080.js"></script>
+
+    <!--Caroussel--->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    < <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body class="is-preload">
+  <!--<ul class="cb-slideshow">-->
+    <!--<li><span>Image 01</span></li>-->
+    <!--<li><span>Image 02</span></li>-->
+    <!--<li><span>Image 03</span></li>-->
+    <!--<li><span>Image 04</span></li>-->
+    <!--<li><span>Image 05</span></li>-->
+    <!--<li><span>Image 06</span></li>-->
+  <!--</ul>-->
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+            <!--scrolling issue, check tutorial here: https://www.cssscript.com/easy-one-page-scroll-navigation-library-slide-nav/ -->
+            <nav>
+                <!--The idea is to put EO logo on side of barre menu but on the left side, to be seen later, not priority"-->
+              <div class="element"><a href="#header">Home</a></div>
+              <div class="element"><a href="#content">About</a></div>
+              <div class="element"><a href="#Team">The Team</a></div>
+              <div class="element"><a href="#Mixtapes">Mixtapes</a></div>
+              <div class="element"><a href="#Contact">Contact</a></div>
+            </nav>
+						<h1>Electric Offense</h1>
+						<p>Beats&nbsp;&nbsp;&nbsp;Bass&nbsp;&nbsp;&nbsp;Digital Arts</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+              <!--<img src="images/Background.png" alt="background">-->
+            <!-- Content -->
+							<section id="content"class="main">
+
+								<!-- Text -->
+									<section>
+                    <h2>About</h2>
+                    <div id="aboutConteneur">
+                      <div class="aboutElement">
+                        <h3>Gallery</h3>
+                        <img class="mySlides" src="assets/css/images/modularsynth.jpg">
+                        <img class="mySlides" src="assets/css/images/instru.jpg">
+                        <!--<img class="mySlides" src="images/teho_live_1.jpg" style="width: 100%; display: none;">-->
+                        <img class="mySlides" src="assets/css/images/dj.jpg">
+                        <!--<img class="mySlides" src="images/teho_live_2.jpg" style="width: 100%; display: block;">-->
+                        <!--<img class="mySlides" src="assets/css/images/cheval.jpg">-->
+                        <!--<img class="mySlides" src="images/teho_live_3.jpg" style="width: 100%; display: none;">-->
+                        <img class="mySlides" src="assets/css/images/flyers.jpg">
+                        <!--<img class="mySlides" src="images/teho_live_4.jpg" style="width: 100%; display: none;">-->
+                        <img class="mySlides" src="assets/css/images/graph.jpg">
+                        <!--<img class="mySlides" src="images/teho_live_5.jpg" style="width: 100%; display: none;">-->
+                        <!--<img class="mySlides" src="images/teho_6.jpg">-->
+                        <!--<img class="mySlides" src="images/teho_live_6.jpg" style="width: 100%; display: none;">-->
+                        <!--<img class="mySlides" src="images/teho_7.jpg">-->
+                      </div>
+                      <script>
+                        var myIndex = 0;
+                        carousel();
+
+                        function carousel() {
+                          var i;
+                          var x = document.getElementsByClassName("mySlides");
+                          for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                          }
+                          myIndex++;
+                          if (myIndex > x.length) {myIndex = 1}
+                          x[myIndex-1].style.display = "block";
+                          setTimeout(carousel, 4000); // Change image every 2 seconds
+                        }
+                      </script>
+                      <div class="aboutElement">
+                        <h3>Our Story</h3>
+                        <p>ELECTRIC OFFENSE is a mixed-media collective that organises parties in Brussels. We bring you electro Lives, DJ sets and visual experimentations. From Dark Synthwave to industrial house (taking a shortcut through Electrotrap!) we aim to please & care. Release yourself for a night. Started in 2017 in Brussels by 80’s kiddos, ELECTRIC OFFENSE hits the analog highways and transforms binary impulses into matter. Each night we deconstruct your reality and make it anew!</p>
+                      </div>
+                      <div class="aboutElement"></div>
+                    </div>
+                    <h2 id="Team"><br></h2>
+                    <h2>The Team</h2>
+                    <div id="TheTeamConteneur">
+                      <div class="TheTeamElement">
+                        <h3>The Bitch</h3><img src="assets/css/images/Roman.jpg">
+                        <div class="item-overlay top">
+                          <div id="bitch">
+                            <p>Computing science genius constantly exploring new numerical arts boundaries, the Bitch,
+                              alias Roman, is from Paris. I know, nobody's perfect. He brings the best of his talent to
+                              bitchslap us and accompany Electric Offense to new heights</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="TheTeamElement">
+                        <h3>De echte Brusseleir</h3><img src="assets/css/images/Antoun.jpg">
+                        <div class="item-overlay top">
+                          <div id="antoun">
+                            <p>His dudeness, Antoun Di Tounzi, plays as a resident DJ with Roman as UltraSex.
+                              He's an engineer in electric components and is currently composing his first tracks.
+                              He's the idealisation of the Retro 80's cyberpunk  living among the tunes of synthwave,
+                              neons and laser raptors</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="TheTeamElement">
+                        <h3>The Catalyst</h3><img src="assets/css/images/Charles.jpg">
+                        <div class="item-overlay top">
+                          <div id="charles-le-magnifique">
+                            <p>From his real name Charles, resident DJ known as Abunai, spend his free time running,
+                              cooking green curry thai, learning languages and watching cat videos.
+                              He recently started learning programming and made this sublime website.
+                              And yes, it means he's talking about him at the 3rd person. So fucking what ?</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="TheTeamElement">
+                        <h3>Jean Michel Poulet</h3><img src="assets/css/images/Ken2.jpeg">
+                        <div class="item-overlay top">
+                          <div id="tu-peux-pas-ken">
+                            <p>Jean Michel, commonly known as Ken, is originated from Alsace.
+                              He is one of the main imagination powerhouse of Electric Offense: pineapple in space,
+                              zombie nazis, and sudden sharknado attacks. He's a man of taste and occasionally enjoys
+                              vegan free barbecue and takes care of his skin with gluten free organic aloe vera cream </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <h2 id="Mixtapes"><br></h2>
+                    <h2>Mixtapes</h2>
+                    <div id="mixtapesConteneur">
+                      <div class="mixtapesElement"><iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Felectricoffense%2Felectric-offense-mixtape-1%2F" frameborder="0" ></iframe></div>
+                      <div class="mixtapesElement"><iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Felectricoffense%2Felectric-offense-mixtape-2%2F" frameborder="0" ></iframe></div>
+                      <div class="mixtapesElement"><iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Felectricoffense%2Felectric-offense-mixtape-3%2F" frameborder="0" ></iframe></div>
+                      <div class="mixtapesElement"><iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Felectricoffense%2Felectric-offense-mixtape-4%2F" frameborder="0" ></iframe></div>
+                      <div class="mixtapesElement"><iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Felectricoffense%2Felectric-offense-mixtape-5%2F" frameborder="0" ></iframe></div>
+                      <div class="mixtapesElement"><iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Felectricoffense%2Felectric-offense-mixtape-6%2F" frameborder="0" ></iframe></div>
+                    </div>
+
+										<!--<h2>Text</h2>-->
+										<!--<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.-->
+										<!--This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.-->
+										<!--This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>-->
+										<!--<hr />-->
+										<!--<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>-->
+										<!--<hr />-->
+										<!--<h2>Heading Level 2</h2>-->
+										<!--<h3>Heading Level 3</h3>-->
+										<!--<h4>Heading Level 4</h4>-->
+										<!--<hr />-->
+										<!--<h3>Blockquote</h3>-->
+										<!--<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>-->
+										<!--<h3>Preformatted</h3>-->
+										<!--<pre><code>i = 0;-->
+
+<!--while (!deck.isInOrder()) {-->
+    <!--print 'Iteration ' + i;-->
+    <!--deck.shuffle();-->
+    <!--i++;-->
+<!--}-->
+
+<!--print 'It took ' + i + ' iterations to sort the deck.';</code></pre>-->
+									<!--</section>-->
+
+								<!-- Lists -->
+									<!--<section>-->
+										<!--<h2>Lists</h2>-->
+										<!--<div class="row">-->
+											<!--<div class="col-6 col-12-medium">-->
+												<!--<h3>Unordered</h3>-->
+												<!--<ul>-->
+													<!--<li>Dolor pulvinar magna etiam.</li>-->
+													<!--<li>Sagittis sed lorem adipiscing.</li>-->
+													<!--<li>Felis enim etiam feugiat.</li>-->
+													<!--<li>Ipsum lorem nullam consequat.</li>-->
+												<!--</ul>-->
+												<!--<h3>Alternate</h3>-->
+												<!--<ul class="alt">-->
+													<!--<li>Dolor pulvinar magna etiam.</li>-->
+													<!--<li>Sagittis sed lorem adipiscing.</li>-->
+													<!--<li>Felis enim etiam feugiat.</li>-->
+													<!--<li>Ipsum lorem nullam consequat.</li>-->
+												<!--</ul>-->
+											<!--</div>-->
+											<!--<div class="col-6 col-12-medium">-->
+												<!--<h3>Ordered</h3>-->
+												<!--<ol>-->
+													<!--<li>Dolor pulvinar etiam.</li>-->
+													<!--<li>Etiam vel felis viverra.</li>-->
+													<!--<li>Felis enim feugiat.</li>-->
+													<!--<li>Dolor pulvinar etiam.</li>-->
+													<!--<li>Etiam vel felis lorem.</li>-->
+													<!--<li>Felis enim et feugiat.</li>-->
+												<!--</ol>-->
+												<!--<h3>Icons</h3>-->
+												<!--<ul class="icons">-->
+													<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+													<!--<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>-->
+													<!--<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>-->
+													<!--<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>-->
+													<!--<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+												<!--</ul>-->
+												<!--<ul class="icons">-->
+													<!--<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>-->
+													<!--<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>-->
+													<!--<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+													<!--<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>-->
+													<!--<li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+												<!--</ul>-->
+											<!--</div>-->
+										<!--</div>-->
+										<!--<h2>Actions</h2>-->
+										<!--<div class="row">-->
+											<!--<div class="col-6 col-12-medium">-->
+												<!--<ul class="actions">-->
+													<!--<li><a href="#" class="button primary">Default</a></li>-->
+													<!--<li><a href="#" class="button">Default</a></li>-->
+												<!--</ul>-->
+												<!--<ul class="actions small">-->
+													<!--<li><a href="#" class="button primary small">Small</a></li>-->
+													<!--<li><a href="#" class="button small">Small</a></li>-->
+												<!--</ul>-->
+												<!--<ul class="actions stacked">-->
+													<!--<li><a href="#" class="button primary">Default</a></li>-->
+													<!--<li><a href="#" class="button">Default</a></li>-->
+												<!--</ul>-->
+												<!--<ul class="actions stacked">-->
+													<!--<li><a href="#" class="button primary small">Small</a></li>-->
+													<!--<li><a href="#" class="button small">Small</a></li>-->
+												<!--</ul>-->
+											<!--</div>-->
+											<!--<div class="col-6 col-12-medium">-->
+												<!--<ul class="actions stacked">-->
+													<!--<li><a href="#" class="button primary fit">Default</a></li>-->
+													<!--<li><a href="#" class="button fit">Default</a></li>-->
+												<!--</ul>-->
+												<!--<ul class="actions stacked">-->
+													<!--<li><a href="#" class="button primary small fit">Small</a></li>-->
+													<!--<li><a href="#" class="button small fit">Small</a></li>-->
+												<!--</ul>-->
+											<!--</div>-->
+										<!--</div>-->
+									<!--</section>-->
+
+								<!-- Table -->
+									<!--<section>-->
+										<!--<h2>Table</h2>-->
+										<!--<h3>Default</h3>-->
+										<!--<div class="table-wrapper">-->
+											<!--<table>-->
+												<!--<thead>-->
+													<!--<tr>-->
+														<!--<th>Name</th>-->
+														<!--<th>Description</th>-->
+														<!--<th>Price</th>-->
+													<!--</tr>-->
+												<!--</thead>-->
+												<!--<tbody>-->
+													<!--<tr>-->
+														<!--<td>Item One</td>-->
+														<!--<td>Ante turpis integer aliquet porttitor.</td>-->
+														<!--<td>29.99</td>-->
+													<!--</tr>-->
+													<!--<tr>-->
+														<!--<td>Item Two</td>-->
+														<!--<td>Vis ac commodo adipiscing arcu aliquet.</td>-->
+														<!--<td>19.99</td>-->
+													<!--</tr>-->
+													<!--<tr>-->
+														<!--<td>Item Three</td>-->
+														<!--<td> Morbi faucibus arcu accumsan lorem.</td>-->
+														<!--<td>29.99</td>-->
+													<!--</tr>-->
+													<!--<tr>-->
+														<!--<td>Item Four</td>-->
+														<!--<td>Vitae integer tempus condimentum.</td>-->
+														<!--<td>19.99</td>-->
+													<!--</tr>-->
+													<!--<tr>-->
+														<!--<td>Item Five</td>-->
+														<!--<td>Ante turpis integer aliquet porttitor.</td>-->
+														<!--<td>29.99</td>-->
+													<!--</tr>-->
+												<!--</tbody>-->
+												<!--<tfoot>-->
+													<!--<tr>-->
+														<!--<td colspan="2"></td>-->
+														<!--<td>100.00</td>-->
+													<!--</tr>-->
+												<!--</tfoot>-->
+											<!--</table>-->
+										<!--</div>-->
+
+										<!--<h3>Alternate</h3>-->
+										<!--<div class="table-wrapper">-->
+											<!--<table class="alt">-->
+												<!--<thead>-->
+													<!--<tr>-->
+														<!--<th>Name</th>-->
+														<!--<th>Description</th>-->
+														<!--<th>Price</th>-->
+													<!--</tr>-->
+												<!--</thead>-->
+												<!--<tbody>-->
+													<!--<tr>-->
+														<!--<td>Item One</td>-->
+														<!--<td>Ante turpis integer aliquet porttitor.</td>-->
+														<!--<td>29.99</td>-->
+													<!--</tr>-->
+													<!--<tr>-->
+														<!--<td>Item Two</td>-->
+														<!--<td>Vis ac commodo adipiscing arcu aliquet.</td>-->
+														<!--<td>19.99</td>-->
+													<!--</tr>-->
+													<!--<tr>-->
+														<!--<td>Item Three</td>-->
+														<!--<td> Morbi faucibus arcu accumsan lorem.</td>-->
+														<!--<td>29.99</td>-->
+													<!--</tr>-->
+													<!--<tr>-->
+														<!--<td>Item Four</td>-->
+														<!--<td>Vitae integer tempus condimentum.</td>-->
+														<!--<td>19.99</td>-->
+													<!--</tr>-->
+													<!--<tr>-->
+														<!--<td>Item Five</td>-->
+														<!--<td>Ante turpis integer aliquet porttitor.</td>-->
+														<!--<td>29.99</td>-->
+													<!--</tr>-->
+												<!--</tbody>-->
+												<!--<tfoot>-->
+													<!--<tr>-->
+														<!--<td colspan="2"></td>-->
+														<!--<td>100.00</td>-->
+													<!--</tr>-->
+												<!--</tfoot>-->
+											<!--</table>-->
+										<!--</div>-->
+									<!--</section>-->
+
+								<!-- Buttons -->
+									<!--<section>-->
+										<!--<h3>Buttons</h3>-->
+										<!--<ul class="actions">-->
+											<!--<li><a href="#" class="button primary">Primary</a></li>-->
+											<!--<li><a href="#" class="button">Default</a></li>-->
+										<!--</ul>-->
+										<!--<ul class="actions">-->
+											<!--<li><a href="#" class="button large">Large</a></li>-->
+											<!--<li><a href="#" class="button">Default</a></li>-->
+											<!--<li><a href="#" class="button small">Small</a></li>-->
+										<!--</ul>-->
+										<!--<ul class="actions fit">-->
+											<!--<li><a href="#" class="button primary fit">Fit</a></li>-->
+											<!--<li><a href="#" class="button fit">Fit</a></li>-->
+											<!--<li><a href="#" class="button fit">Fit</a></li>-->
+										<!--</ul>-->
+										<!--<ul class="actions fit small">-->
+											<!--<li><a href="#" class="button primary fit small">Fit + Small</a></li>-->
+											<!--<li><a href="#" class="button fit small">Fit + Small</a></li>-->
+											<!--<li><a href="#" class="button fit small">Fit + Small</a></li>-->
+										<!--</ul>-->
+										<!--<ul class="actions">-->
+											<!--<li><a href="#" class="button primary icon fa-download">Icon</a></li>-->
+											<!--<li><a href="#" class="button icon fa-upload">Icon</a></li>-->
+											<!--<li><a href="#" class="button icon fa-save">Icon</a></li>-->
+										<!--</ul>-->
+										<!--<ul class="actions">-->
+											<!--<li><span class="button primary disabled">Disabled</span></li>-->
+											<!--<li><span class="button disabled">Disabled</span></li>-->
+										<!--</ul>-->
+									<!--</section>-->
+
+								<!-- Form -->
+									<!--<section>-->
+										<!--<h2>Form</h2>-->
+										<!--<form method="post" action="#">-->
+											<!--<div class="row gtr-uniform">-->
+												<!--<div class="col-6 col-12-xsmall">-->
+													<!--<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />-->
+												<!--</div>-->
+												<!--<div class="col-6 col-12-xsmall">-->
+													<!--<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />-->
+												<!--</div>-->
+												<!--<div class="col-12">-->
+													<!--<select name="demo-category" id="demo-category">-->
+														<!--<option value="">- Category -</option>-->
+														<!--<option value="1">Manufacturing</option>-->
+														<!--<option value="1">Shipping</option>-->
+														<!--<option value="1">Administration</option>-->
+														<!--<option value="1">Human Resources</option>-->
+													<!--</select>-->
+												<!--</div>-->
+												<!--<div class="col-4 col-12-small">-->
+													<!--<input type="radio" id="demo-priority-low" name="demo-priority" checked>-->
+													<!--<label for="demo-priority-low">Low</label>-->
+												<!--</div>-->
+												<!--<div class="col-4 col-12-small">-->
+													<!--<input type="radio" id="demo-priority-normal" name="demo-priority">-->
+													<!--<label for="demo-priority-normal">Normal</label>-->
+												<!--</div>-->
+												<!--<div class="col-4 col-12-small">-->
+													<!--<input type="radio" id="demo-priority-high" name="demo-priority">-->
+													<!--<label for="demo-priority-high">High</label>-->
+												<!--</div>-->
+												<!--<div class="col-6 col-12-small">-->
+													<!--<input type="checkbox" id="demo-copy" name="demo-copy">-->
+													<!--<label for="demo-copy">Email me a copy</label>-->
+												<!--</div>-->
+												<!--<div class="col-6 col-12-small">-->
+													<!--<input type="checkbox" id="demo-human" name="demo-human" checked>-->
+													<!--<label for="demo-human">Not a robot</label>-->
+												<!--</div>-->
+												<!--<div class="col-12">-->
+													<!--<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>-->
+												<!--</div>-->
+												<!--<div class="col-12">-->
+													<!--<ul class="actions">-->
+														<!--<li><input type="submit" value="Send Message" class="primary" /></li>-->
+														<!--<li><input type="reset" value="Reset" /></li>-->
+													<!--</ul>-->
+												<!--</div>-->
+											<!--</div>-->
+										<!--</form>-->
+									<!--</section>-->
+
+								<!-- Image -->
+									<!--<section>-->
+										<!--<h2>Image</h2>-->
+										<!--<h3>Fit</h3>-->
+										<!--<div class="box alt">-->
+											<!--<div class="row gtr-uniform">-->
+												<!--<div class="col-12"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>-->
+												<!--<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>-->
+												<!--<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>-->
+												<!--<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>-->
+												<!--<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>-->
+												<!--<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>-->
+												<!--<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>-->
+												<!--<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>-->
+												<!--<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>-->
+												<!--<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>-->
+											<!--</div>-->
+										<!--</div>-->
+										<!--<h3>Left &amp; Right</h3>-->
+										<!--<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent lorem ipsum dolor sit amet veroeros consequat. Etiam tempus lorem ipsum.</p>-->
+										<!--<p><span class="image right"><img src="images/pic06.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus..</p>-->
+									<!--</section>-->
+
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+              <h2 id="Contact">Contact</h2>
+							<p>We are constantly looking for live artists, partnerships and host locations.
+                If you believe in the virgin Mary spaceships and you enjoy Japanese Natto while kissing your partner,
+                it genuinely means we can talk a common language</p>
+							<ul class="actions">
+								<li><a href="assets/css/images/cheval.jpg" target="_blank" class="button">Cheval</a></li>
+                <li><a href="assets/css/images/ginTonic.jpg" target="_blank" class="button">Another request ?</a></li>
+                <li><a href="assets/css/images/hipster.jpg" target="_blank" class="button">Hipster</a></li>
+							</ul>
+						</section>
+						<section>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>Center of the Universe and Answer to the meaning of Life&bull; Brussels 1000 &bull; Belgium</dd>
+								<dt>Phone</dt>
+								<dd>(+32) 485243631</dd>
+								<dt>Email</dt>
+								<dd><a href="mailto:contact@electricoffense.be">contact@electricoffense.be</a></dd>
+							</dl>
+							<ul class="icons">
+								<!--<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>-->
+								<!--<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>-->
+								<!--<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>-->
+								<!--<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>-->
+								<!--<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>-->
+							</ul>
+              <div id="lesLogos">
+                <div class="logo">
+                  <a href="https://www.facebook.com/electricOffense/" target="_blank"><img src="assets/css/images/facebook-logo-button-50-50.png"></a>
+                  <!--element 1-->
+                </div>
+                <div class="logo">
+                  <img src="assets/css/images/instagram-logo-50-50.png">
+                  <!--element 2-->
+                </div>
+              </div>
+						</section>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+      <script src="assets/js/slideNav.js" type="text/javascript"></script>
+      <script>
+        window.slide = new SlideNav({
+          changeHash: true
+        });
+      </script>
+      <script>
+        var nav = new SlideNav({
+          activeClass: "active",
+        toggleButtonSelector: false,
+        toggleBoxSelector: false,
+        hideAfterSelect: true,
+        speed: 70,
+        changeHash: false,
+        navBoxToggleClass: false
+        });
+      </script>
+	</body>
+</html>
